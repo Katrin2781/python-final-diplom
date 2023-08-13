@@ -2,7 +2,7 @@
 from django.contrib import admin
 from django.contrib.auth.admin import UserAdmin
 
-from shop.models import User, Shop, Product, Category, ProductParameter, ProductInfo, Parameter, OrderItem, Order, \
+from shop_backend.models import User, Shop, Product, Category, ProductParameter, ProductInfo, Parameter, OrderItem, Order, \
     Contact, ConfirmEmailToken
 
 
