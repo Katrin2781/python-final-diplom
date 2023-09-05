@@ -6,6 +6,7 @@ from shop_backend.models import User, Shop, Product, Category, ProductParameter,
     Contact, ConfirmEmailToken
 
 
+
 @admin.register(User)
 class CustomUserAdmin(UserAdmin):
     model = User
