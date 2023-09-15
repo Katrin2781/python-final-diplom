@@ -59,7 +59,7 @@ class ShopTests(APITestCase):
 
 
     def test_shop_get(self):
-        url = "/api/v1/shops/"
+        url = "/api/v1/shops"
         response = self.client.get(url, format='json')
         self.assertEqual(response.status_code, status.HTTP_200_OK)
 
